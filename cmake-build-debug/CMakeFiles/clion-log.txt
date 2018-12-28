@@ -1,0 +1,59 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jeonghyeonlee/Project/Caffe-CL-Origin
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/Dependencies.cmake:8 (find_package)
+  CMakeLists.txt:127 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/Dependencies.cmake:8 (find_package)
+  CMakeLists.txt:127 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/Dependencies.cmake:8 (find_package)
+  CMakeLists.txt:127 (include)
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:2048 (message):
+  Unable to find the requested Boost libraries.
+
+  Unable to find the Boost header files.  Please set BOOST_ROOT to the root
+  directory containing Boost or BOOST_INCLUDEDIR to the directory containing
+  Boost's headers.
+Call Stack (most recent call first):
+  cmake/Dependencies.cmake:8 (find_package)
+  CMakeLists.txt:127 (include)
+
+
+-- Could NOT find GFlags (missing: GFLAGS_INCLUDE_DIR GFLAGS_LIBRARY) 
+-- Could NOT find Glog (missing: GLOG_INCLUDE_DIR GLOG_LIBRARY) 
+-- Could NOT find PROTOBUF (missing: PROTOBUF_LIBRARY PROTOBUF_INCLUDE_DIR) 
+CMake Error at cmake/ProtoBuf.cmake:19 (message):
+  Could not find PROTOBUF Compiler
+Call Stack (most recent call first):
+  cmake/Dependencies.cmake:48 (include)
+  CMakeLists.txt:127 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jeonghyeonlee/Project/Caffe-CL-Origin/cmake-build-debug/CMakeFiles/CMakeOutput.log".

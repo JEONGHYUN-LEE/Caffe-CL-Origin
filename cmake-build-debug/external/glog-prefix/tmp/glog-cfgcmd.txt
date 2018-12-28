@@ -1,0 +1,1 @@
+cmd='env;CFLAGS=-fPIC;CXXFLAGS=-fPIC;/Users/jeonghyeonlee/Project/Caffe-CL-Origin/cmake-build-debug/external/glog-prefix/src/glog/configure;--prefix=/Users/jeonghyeonlee/Project/Caffe-CL-Origin/cmake-build-debug/external/glog-install;--enable-shared=no;--enable-static=yes;--with-gflags=/Users/jeonghyeonlee/Project/Caffe-CL-Origin/cmake-build-debug/external/gflags-install/lib/..'
